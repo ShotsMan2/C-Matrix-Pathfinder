@@ -80,9 +80,7 @@ int main()
                     koyulacak='O';
                 }
             }
-
             matris[i][j]=koyulacak;
-
         }
     }
 
@@ -168,16 +166,12 @@ int main()
     else{
         printf("haritada yol bulunamadi.\n");
     }
-
     }
 
     if(d==5){
         printf("5 denemede de uygun yol bulunamadı.\n");
     }
-
-
-
-
-
+    
     return 0;
 }
+
